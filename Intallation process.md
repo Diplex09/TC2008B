@@ -2,23 +2,8 @@
 
 Multi-agent simulation
 ---------------
-En caso de querer hacer alguna modificación al comportamiento general de los coches, 
-será necesario descargar el archivo multiagentes.IPYNB, para el cual se necesitará un
-entorno capaz de funcionar con este formato por ejemplo Visual Studio Code y la extensión 
-Jupyter serían suficientes. Antes de poder ejecutar este necesitaremos hacer la instalación de las 
-librerías como agentpy, numpy, matplotlib, json, math y IPython ya que estos permiten
-el funcionamiento completo del código, Con estos pasos realizados de manera correcta
-será capaz de ejecutar el código y así poder generar el archivo JSON para poder usarlo
-en el apartado gráfico
+In case you want to make any modifications to the general behavior of the cars, it will be necessary to download the multiagents.IPYNB file, for which you will need an environment capable of working with this format. As an example, Visual Studio Code and the Jupyter extension would suffice. Before being able to run this we will need to install the libraries such as AgentPy, NumPy, Matplotlib, JSON, Math and IPython as these allow the full operation of the code. By following these steps you will be able to run the code and thus be able to generate the JSON file to use it in the graphic simulation.
 
-Funcionamiento de la simulación
+Graphic simulation
 ---------------
-Para poder tener una ejecución correcta del proyecto primero será necesario mantener todos los
-archivos tal y como se proporcionaron en la carpeta del proyecto (en caso de haber generado
-un nuevo archivo JSON será necesario cambiarlo por el actual de la carpeta). Una vez que la hayamos 
-descargado abriremos esta en Visual Studio Code e ingresaremos al archivo nombrado html donde
-para poder empezar la simulación será necesario contar con el extensión Live Server (en caso de
-no contar con está sólo se necesitará ir al apartado de extensiones de VSC y buscarla para después
-sólo instalarla y con esto será suficiente) para que al momento de dar clic en el botón
-"Go Live" el archivo empiecé a ejecutarse en una pestaña de su navegador y así poder apreciar
-la simulación en funcionamiento.
+In order to run the project correctly it will be necessary first to keep all the files as they were provided in the project folder (in case of having generated a new JSON file it will be necessary to change it for the current one in the folder). Once we have downloaded the project, we will open it in Visual Studio Code and select the file called simulation.html. Next, to be able to execute this file, it will be necessary to have the Live Server extension (in case of not having it just go to the VSC extensions section and look for it and then just install it and it will be enough) so that when pressing the "Go Live" button the file starts to execute in a browser tab and thus to be able to see the simulation running.
